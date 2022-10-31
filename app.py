@@ -32,7 +32,7 @@ JOBS = [
 # route
 @app.route("/")
 def hello_jovian():
-  return render_template('home.html',jobs=JOBS,company_name='Jovian Tutorials & ')
+  return render_template('home.html',jobs=JOBS,company_name='Lorem Ipsum ')
 @app.route("/jobs")
 def list_jobs():
   return jsonify(JOBS)
